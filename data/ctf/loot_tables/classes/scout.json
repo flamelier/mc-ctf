@@ -1,0 +1,44 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Enchantments:[{id:unbreaking,lvl:1000}]}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ender_pearl"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_beef",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 64
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

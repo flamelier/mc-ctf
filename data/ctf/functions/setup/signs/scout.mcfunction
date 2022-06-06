@@ -1,0 +1,2 @@
+execute at @s anchored feet run setblock ~ ~ ~ minecraft:birch_wall_sign[facing=south]
+execute at @s anchored feet run data merge block ~ ~ ~ {Text1:"{\"text\":\"[Scout]\",\"bold\":true,\"color\":\"green\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @s add JoinScout\"}}","Text2":"\"Light Armor\"","Text3":"\"Prickly Stick\"","Text4":"\"Pearl+Speed\""}

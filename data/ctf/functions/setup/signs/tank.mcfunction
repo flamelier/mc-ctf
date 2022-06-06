@@ -1,0 +1,2 @@
+execute at @s anchored feet run setblock ~ ~ ~ minecraft:birch_wall_sign[facing=south]
+execute at @s anchored feet run data merge block ~ ~ ~ {Text1:"{\"text\":\"[Tank]\",\"bold\":true,\"color\":\"dark_blue\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @s add JoinTank\"}}","Text2":"\"Super Slow\"","Text3":"\"Heavy Armor\"","Text4":"\"Can't Capture Flag\""}

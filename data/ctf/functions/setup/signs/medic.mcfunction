@@ -1,0 +1,2 @@
+execute at @s anchored feet run setblock ~ ~ ~ minecraft:birch_wall_sign[facing=south]
+execute at @s anchored feet run data merge block ~ ~ ~ {Text1:"{\"text\":\"[Medic]\",\"bold\":true,\"color\":\"dark_red\",\"underlined\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @s add JoinMedic\"}}","Text2":"\"Medium Armor\"","Text3":"\"Health Potions\"","Text4":"\"Jump Boost\""}

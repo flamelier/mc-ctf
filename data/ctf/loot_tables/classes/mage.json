@@ -1,0 +1,190 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:25,Amplifier:1,Duration:300}],display:{Name:\"\\\"Levitation\\\"\"}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:19,Duration:800}],display:{Name:\"\\\"Poison\\\"\"}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:7,Amplifier:2}],display:{Name:\"\\\"Damage\\\"\"}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:6}],display:{Name:\"\\\"Health\\\"\"}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:25,Amplifier:1,Duration:300}],display:{Name:\"\\\"Levitation\\\"\"}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:19,Duration:800}],display:{Name:\"\\\"Poison\\\"\"}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:7,Amplifier:2}],display:{Name:\"\\\"Damage\\\"\"}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:24,Duration:2400}],CustomPotionColor:16777016,display:{Name:\"\\\"Glowing\\\"\"}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:1,Amplifier:3,Duration:4800},{Id:2,Amplifier:2,Duration:4800},{Id:3,Amplifier:3,Duration:4800},{Id:4,Amplifier:3,Duration:4800},{Id:5,Amplifier:3,Duration:4800},{Id:6,Amplifier:1},{Id:7,Amplifier:1},{Id:8,Amplifier:3,Duration:4800},{Id:9,Duration:4800,Amplifier:1000},{Id:10,Duration:4800},{Id:11,Duration:4800},{Id:12,Duration:4800},{Id:13,Duration:4800},{Id:14,Duration:4800},{Id:15,Duration:100},{Id:16,Duration:4800},{Id:17,Duration:4800},{Id:18,Duration:4800},{Id:19,Duration:800},{Id:20},{Id:21,Amplifier:3,Duration:4800},{Id:22,Duration:4800},{Id:23},{Id:24,Duration:4800},{Id:25,Duration:300},{Id:26,Duration:4800},{Id:27,Duration:4800},{Id:28,Duration:6400},{Id:29,Duration:4800},{Id:30,Duration:4800},{Id:31,Duration:4800},{Id:32,Duration:4800}],CustomPotionColor:0,display:{Name:\"\\\"A Bad Idea\\\"\",Lore:[\"Ya know what, screw it. Mix every potion together and see what happens\"]}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

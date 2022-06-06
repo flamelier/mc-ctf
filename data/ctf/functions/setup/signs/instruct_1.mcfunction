@@ -1,0 +1,2 @@
+execute at @s anchored feet run setblock ~ ~ ~ minecraft:birch_wall_sign[facing=south]
+execute at @s anchored feet run data merge block ~ ~ ~ {Text1:"{\"text\":\"To capture an\"}","Text2":"\"enemy flag just\"","Text3":"\"walk near their\"","Text4":"\"base\""}
